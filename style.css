@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #DAA929;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CCCC;
+    gap: 2rem;
+    padding: 10px;
+
+}
+
+.navbar div{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #DAA929;
+    padding: 10px;
+    border: 1px solid black;
+    width: 10rem;
+    font-weight: 700;
+    box-shadow: 2px 4px 4px black;
+}
+
+.navbar div:last-child {
+
+    white-space: nowrap;
+
+}
+
+.cards{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    background-color: #808080;
+    padding: 20px;
+    height: 800px;
+}
+
+.cards div{
+
+    background-color: white;
+    
+    
+}
+
+.cards img{
+
+  width: 100%;
+  padding: 10px;
+
+ 
+  
+}
+
+.cards p{
+
+    padding: 5px;
+    text-align: center;
+   
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    padding: 10px;
+    
+  
+   
+  }
+  
+
+.btn{
+    width: 90%;
+    padding: 10px;
+    margin-top: 20%;
+  
+}
+
+
+
+
+
+
+.footer{
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DAA929;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+ 
+ 
